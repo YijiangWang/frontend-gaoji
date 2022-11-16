@@ -1,3 +1,4 @@
+// ==============let const=============
 const obj = {
   name: 'yjw',
   age: 20,
@@ -25,7 +26,7 @@ obj.hobby.ball = 'foot';
 
 // console.log(obj);
 
-// ==========================
+// ============解构赋值==============
 const obj2 = {
   name: 'yjw',
   age: 20,
@@ -35,4 +36,10 @@ const obj2 = {
   }
 }
 const {name: myName, age, hobby: {ball, sport: sports}} = obj2;
-console.log(myName, age, ball, sports);
+// console.log(myName, age, ball, sports);
+
+// ==============set map=============
+let map = new Map();
+map.set('name', 'zhangsan');
+map.set('age', 18);
+console.log(obj2.size, map.size);
