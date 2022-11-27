@@ -93,4 +93,4 @@ let obj5 = {
   name: 'yjw' 
 }
 let res = Object.getOwnPropertySymbols(obj5);
-console.log(obj5[res[0]]);
+// console.log(obj5[res[0]]);
